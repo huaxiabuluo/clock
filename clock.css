@@ -1,0 +1,44 @@
+.clock {
+	position: relative;
+	background: url(clock.png) no-repeat -197px -65px;
+	margin: 0 auto;
+	width: 760px;
+	height: 734px;
+}
+.hand {
+	position: absolute;
+	background: url(clock.png) no-repeat;
+}
+.hour {
+	top: 224px;
+	left: 366px;
+	background-position: -119px -555px;
+	width: 34px;
+	height: 166px;
+	-webkit-transform-origin: center 149px;
+	-ms-transform-origin: center 149px;
+	-o-transform-origin: center 149px;
+	transform-origin: center 149px;
+}
+.minute {
+	top: 163px;
+	left: 368px;
+	background-position: -73px -495px;
+	width: 30px;
+	height: 224px;
+	-webkit-transform-origin: center 210px;
+	-ms-transform-origin: center 210px;
+	-o-transform-origin: center 210px;
+	transform-origin: center 210px;
+}
+.second {
+	top: 127px;
+	left: 365px;
+	background-position: -24px -460px;
+	width: 34px;
+	height: 326px;
+	-webkit-transform-origin: center 248px;
+	-ms-transform-origin: center 248px;
+	-o-transform-origin: center 248px;
+	transform-origin: center 248px;
+}
